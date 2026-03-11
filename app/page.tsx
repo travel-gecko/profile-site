@@ -150,8 +150,105 @@ export default function Home() {
       </section>
 
       {/* Works */}
-      {/* Why Me */}
-            {/* Vision */}
+      <section
+        id="works"
+        style={{
+          padding: "100px 20px",
+          backgroundColor: "#f8fafc",
+        }}
+      >
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Works</h2>
+          <p style={{ color: "#888", marginBottom: "50px", fontSize: "15px" }}>
+            医療現場の課題解決に向けて開発したプロダクト
+          </p>
+
+          <div
+            style={{
+              backgroundColor: "white",
+              borderRadius: "12px",
+              padding: "40px",
+              boxShadow: "0 2px 12px rgba(0,0,0,0.08)",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
+              <span
+                style={{
+                  backgroundColor: "#e0f2fe",
+                  color: "#0ea5e9",
+                  padding: "4px 12px",
+                  borderRadius: "20px",
+                  fontSize: "12px",
+                  fontWeight: "bold",
+                }}
+              >
+                Python / Streamlit
+              </span>
+              <span
+                style={{
+                  backgroundColor: "#f0fdf4",
+                  color: "#22c55e",
+                  padding: "4px 12px",
+                  borderRadius: "20px",
+                  fontSize: "12px",
+                  fontWeight: "bold",
+                }}
+              >
+                小規模施設向け
+              </span>
+            </div>
+
+            <h3 style={{ fontSize: "22px", marginBottom: "12px" }}>
+              看護施設向け シフト自動作成システム
+            </h3>
+
+            <p style={{ lineHeight: "1.8", color: "#444", marginBottom: "24px" }}>
+              現場の声から生まれた、法令遵守・公平性を両立するシフト自動生成ツール。
+              正社員・パートの勤務区分や希望休を考慮しながら、
+              4週9休制（労働基準法準拠）を守った月次シフトをワンクリックで生成。
+              Excelへのエクスポートにも対応し、小規模施設でもすぐに導入できる設計。
+            </p>
+
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+                gap: "16px",
+                marginBottom: "24px",
+              }}
+            >
+              {[
+                { label: "法令遵守", desc: "4週9休制を自動保証" },
+                { label: "希望休 100%尊重", desc: "スコアリングで公平に反映" },
+                { label: "Excel出力", desc: "色分け印刷対応" },
+                { label: "テスト33件", desc: "品質を担保した実装" },
+              ].map((item) => (
+                <div
+                  key={item.label}
+                  style={{
+                    backgroundColor: "#f8fafc",
+                    borderRadius: "8px",
+                    padding: "16px",
+                  }}
+                >
+                  <div style={{ fontWeight: "bold", fontSize: "14px", marginBottom: "4px" }}>
+                    ✓ {item.label}
+                  </div>
+                  <div style={{ fontSize: "13px", color: "#666" }}>{item.desc}</div>
+                </div>
+              ))}
+            </div>
+
+            <p style={{ fontSize: "13px", color: "#999", lineHeight: "1.7" }}>
+              スタッフ構成・必要人数・曜日ごとのルールはYAMLで設定可能。
+              特定の施設に依存しない汎用設計のため、診療所・訪問看護ステーション・介護施設など
+              あらゆる小規模医療現場への導入を想定しています。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Vision */}
       <section
   　　　id="vision"
 
