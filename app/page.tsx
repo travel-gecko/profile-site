@@ -33,9 +33,9 @@ export default function Home() {
         </div>
 
         <div style={{ display: "flex", gap: "20px", fontSize: "14px" }}>
-          <a href="#story">Story</a>
-          <a href="#works">Works</a>
-          <a href="#vision">Vision</a>
+          <a href="#story" style={{ color: "#333", textDecoration: "none" }}>Story</a>
+          <a href="#works" style={{ color: "#333", textDecoration: "none" }}>Works</a>
+          <a href="#vision" style={{ color: "#333", textDecoration: "none" }}>Vision</a>
         </div>
       </nav>
 
@@ -59,7 +59,7 @@ export default function Home() {
     style={{
       fontSize: "14px",
       letterSpacing: "3px",
-      color: "#888",
+      color: "#444",
       marginBottom: "10px",
     }}
   >
@@ -84,7 +84,7 @@ export default function Home() {
   </h1>
 
 
-          <p style={{ fontSize: "18px", color: "#555", marginBottom: "40px" }}>
+          <p style={{ fontSize: "18px", color: "#333", marginBottom: "40px" }}>
             看護師としての現場経験を活かし、
             本当に使われる医療AIプロダクトをつくる。
           </p>
@@ -325,7 +325,7 @@ export default function Home() {
           textAlign: "center",
           backgroundColor: "#f8fafc",
           fontSize: "14px",
-          color: "#666",
+          color: "#444",
         }}
       >
         © 2026 旅するヤモリのなな  
