@@ -159,7 +159,7 @@ export default function Home() {
       >
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "32px", marginBottom: "10px" }}>Works</h2>
-          <p style={{ color: "#888", marginBottom: "50px", fontSize: "15px" }}>
+          <p style={{ color: "#555", marginBottom: "50px", fontSize: "15px" }}>
             医療現場の課題解決に向けて開発したプロダクト
           </p>
 
@@ -174,8 +174,8 @@ export default function Home() {
             <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
               <span
                 style={{
-                  backgroundColor: "#e0f2fe",
-                  color: "#0ea5e9",
+                  backgroundColor: "#dbeafe",
+                  color: "#1d4ed8",
                   padding: "4px 12px",
                   borderRadius: "20px",
                   fontSize: "12px",
@@ -186,8 +186,8 @@ export default function Home() {
               </span>
               <span
                 style={{
-                  backgroundColor: "#f0fdf4",
-                  color: "#22c55e",
+                  backgroundColor: "#dcfce7",
+                  color: "#15803d",
                   padding: "4px 12px",
                   borderRadius: "20px",
                   fontSize: "12px",
@@ -234,12 +234,12 @@ export default function Home() {
                   <div style={{ fontWeight: "bold", fontSize: "14px", marginBottom: "4px" }}>
                     ✓ {item.label}
                   </div>
-                  <div style={{ fontSize: "13px", color: "#666" }}>{item.desc}</div>
+                  <div style={{ fontSize: "13px", color: "#444" }}>{item.desc}</div>
                 </div>
               ))}
             </div>
 
-            <p style={{ fontSize: "13px", color: "#999", lineHeight: "1.7" }}>
+            <p style={{ fontSize: "13px", color: "#555", lineHeight: "1.7" }}>
               スタッフ構成・必要人数・曜日ごとのルールはYAMLで設定可能。
               特定の施設に依存しない汎用設計のため、診療所・訪問看護ステーション・介護施設など
               あらゆる小規模医療現場への導入を想定しています。
