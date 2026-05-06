@@ -44,7 +44,7 @@ function EcgWithGecko() {
       // Subtle vertical bob
       const bob = Math.sin(s.t * 14) * 2;
       wrapper.style.transform = `translateX(${s.x}px) translateY(${bob}px)`;
-      img.style.transform     = `scaleX(${s.dir})`;
+      img.style.transform     = `rotate(${s.dir === 1 ? 90 : -90}deg)`;
 
       rafRef.current = requestAnimationFrame(tick);
     };
